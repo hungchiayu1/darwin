@@ -11,7 +11,7 @@ To run evaluation on alpaca eval benchmark, you can use the following command
 ```
 python3 alpaca_generate.py --method='darwin'  --model_name='meta-llama/Meta-Llama-3-8B-Instruct' --range='0-805' --replacement_period=40 --iteration=3 --n_mutation=1
 ```
-The results will be saved in a json file where the 'past_outputs' contains a list of outputs for original output and iteration 1,2,3.
+The results will be saved in a json file where the 'past_outputs' contains a list of outputs for original output and mutation cycle 1, 2, 3. Please format the output into the alpaca_eval format from https://github.com/tatsu-lab/alpaca_eval
 
 # Main results
 <img width="638" alt="Screenshot 2024-07-08 at 5 31 18 PM" src="https://github.com/hungchiayu1/darwin-alignment/assets/72308196/6a39799a-13a8-4459-b3f0-46906433dd48">
